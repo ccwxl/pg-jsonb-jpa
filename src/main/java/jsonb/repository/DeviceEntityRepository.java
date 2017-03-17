@@ -1,4 +1,4 @@
-package jsonb.dao;
+package jsonb.repository;
 
 import jsonb.entity.DeviceEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -10,5 +10,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
  */
 public interface DeviceEntityRepository extends JpaRepository<DeviceEntity, Long> {
 
-    DeviceEntity findByDeviceNum(String c20ECF);
+    DeviceEntity findByDeviceNum(String deviceNum);
 }

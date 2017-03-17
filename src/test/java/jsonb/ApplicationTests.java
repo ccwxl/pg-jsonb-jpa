@@ -2,7 +2,7 @@ package jsonb;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import jsonb.dao.DeviceEntityRepository;
+import jsonb.repository.DeviceEntityRepository;
 import jsonb.entity.DeviceEntity;
 import org.junit.Test;
 import org.junit.runner.RunWith;
