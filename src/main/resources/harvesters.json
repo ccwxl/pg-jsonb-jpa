@@ -1,0 +1,20 @@
+[
+  {
+    "name": "HCU_YearMonthDay",
+    "register": 1,
+    "type": "short",
+    "length": 2
+  },
+  {
+    "name": "HCU_ProductTypeID",
+    "register": 2,
+    "type": "short",
+    "length": 2
+  },
+  {
+    "name": "HCU_ProductNO",
+    "register": 3,
+    "type": "char",
+    "length": 2
+  }
+]
